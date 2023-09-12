@@ -46,11 +46,6 @@ def handle_conversion(message):
             raise APIException('Неверно введены параметры')
 
         base, quote, amount = values
-        amount = float(amount)
-
-        if amount < 0:
-            raise APIException('Количество не может быть отрицательным')
-
         total_amount = CryptoConverter.get_total_amount(base, quote, amount)
 
     except APIException as e:
