@@ -1,4 +1,4 @@
-TOKEN = "6365290208:AAGApVLAt85mq8UMBKVuxCuQNQ5GS2KCv4M"
+TOKEN = ""
 
 keys = {
     'доллар': 'USD',
